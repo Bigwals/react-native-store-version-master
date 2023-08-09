@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "removeComments": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "noEmitOnError": false,
+    "inlineSources": true,
+    "baseUrl": "."
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
